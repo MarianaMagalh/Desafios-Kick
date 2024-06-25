@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomes</title>
+</head>
+<body>
+  <h1>Gerador de Nomes</h1>
+  <button onclick="exbir()">Gerar!</button>
+  <p id="resultado"></p>
+
+  <script>
+    function gerarNomes() {
+      const nomes = [
+        "Juliana", 
+        "Gabriel", 
+        "Julia", 
+        "Enzo", 
+        "Beatriz", 
+        "João", 
+        "Marina", 
+        "Eduardo", 
+        "Lumi", 
+        "Kaique"
+      ]
+      
+      const geraAleatorio = Math.floor(Math.random() * nomes.length)
+      
+      return nomes[geraAleatorio]
+    }
+
+    function exbir() {
+      const exNomes = gerarNomes()
+      
+      document.getElementById('resultado').textContent = exNomes
+    }
+  </script>
+</body>
+</html>

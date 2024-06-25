@@ -1,0 +1,76 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header img {
+    height: 50px; /* Ajuste a altura conforme necessário */
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  section.featured {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+  }
+  
+  .featured .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .featured-article {
+    flex: 0 1 calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .featured-article img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .featured-article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .featured-article p {
+    font-size: 16px;
+    color: #333;
+  }
+  
