@@ -1,0 +1,233 @@
+.vil{
+    background: linear-gradient(to right, #020202, #222222);
+}
+
+.conmeninos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fotosmeninos{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotosmeninos img{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.sobremeninos{
+    background-color: #fff;
+    width: 80%; 
+    max-width: 1330px;
+    height: auto; 
+    border-radius: 20px;
+    margin: 80px; 
+    margin-left: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.titlemeninos{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: center;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textmeninos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.conele{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fotosele{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotosele img{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.sobreele{
+    background-color: #fff;
+    width: 80%; 
+    max-width: 1330px;
+    height: auto; 
+    border-radius: 20px;
+    margin: 80px; 
+    margin-left: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.titleele{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: center;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textele{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.conlou{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fotoslou{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoslou img{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.sobrelou{
+    background-color: #fff;
+    width: 80%; 
+    max-width: 1330px;
+    height: auto; 
+    border-radius: 20px;
+    margin: 80px; 
+    margin-left: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.titlelou{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: center;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textlou{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.congan{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fotosgan{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotosgan img{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin: 50px;
+    margin-right: 10px;
+    float: left;
+}
+
+.sobregan{
+    background-color: #fff;
+    width: 80%; 
+    max-width: 1330px;
+    height: auto; 
+    border-radius: 20px;
+    margin: 80px; 
+    margin-left: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.titlegan{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: center;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textgan{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.rodape{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #efe9e9;    
+    font-size: 1em;
+}

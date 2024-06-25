@@ -1,0 +1,65 @@
+.wall{
+    background: linear-gradient(to right, #fc71b8, #f1b5db);
+}
+
+.fotos{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotos img{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin: 80px;
+    margin-right: 10px;
+    float: left;
+}
+
+.edit{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sobreflo{
+    background-color: #fff;
+    width: 80%; 
+    max-width: 1330px;
+    height: auto; 
+    border-radius: 20px;
+    margin: 80px; 
+    margin-left: 150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+}
+
+.titleflo{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: center;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textflo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.rope{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222222;    
+    font-size: 1em;
+}

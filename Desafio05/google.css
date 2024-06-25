@@ -1,0 +1,76 @@
+.corpo{
+    background-color: linear-gradien(#f6d5f7, #fbe9d7);
+    
+    background-color: #f6d5f7;
+    border: solid lpx #ccc;
+}
+
+.todo{
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+.ondas{
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 50px;
+    height: 250px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.pesquisa{
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin: 1px;
+    margin-left: 75px;
+    height: 20px;
+    width: 245px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0.3px 0.3px 3px 3px #5b5b5b;
+}
+
+.pesquisar{
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin: 0.5%;
+    height: 23px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0.3px 0.3px 3px 3px #5b5b5b;
+}
+
+.botao{
+    justify-self: center;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin: 2px;
+    margin-top: 5px;
+    margin-left: 114px;
+    
+}
+.botao :hover{
+    transition: 0.5x;
+}
+
+.btt{
+    margin: 3px;
+    height: 23px;
+    width: 125px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: 0.3px 0.3px 3px 3px #5b5b5b;
+}
